@@ -1,0 +1,11 @@
+# Player Merit Data
+# This file stores the merit points for each player.
+# Each player's merit is tracked by their username.
+# When a player's merit reaches 0 or below, they are banned.
+# To modify this data, use the following format:
+#
+# player_name: merit_value
+#
+# For example:
+# Steve: 100
+# Alex: 90

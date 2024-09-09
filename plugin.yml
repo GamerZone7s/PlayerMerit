@@ -1,0 +1,17 @@
+name: PlayerMerit
+version: 1.0.0
+api: [5.0.0]
+main: GamerZone7s\playermerit\Main
+author: GamerZone7s
+description: "A plugin to manage and check player merits based on their actions."
+
+commands:
+  meritcheck:
+    description: "Check a player's merit."
+    usage: "/meritcheck <playername>"
+    permission: playermerit.check
+
+permissions:
+  playermerit.check:
+    description: "Allows the player to check another player's merit."
+    default: true

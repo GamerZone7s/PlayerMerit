@@ -1,0 +1,14 @@
+# PlayerMerit Plugin Configuration
+
+# The default merit value when a player first joins the server
+default_merit: 100
+
+# List of worlds where the merit system is enabled
+enabled_worlds:
+  - world
+  - world_nether
+  - world_end
+
+# Instructions
+# - default_merit: The starting merit points for new players
+# - enabled_worlds: List of world names where the merit system will be active
